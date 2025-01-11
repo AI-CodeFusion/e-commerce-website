@@ -7,10 +7,7 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-      <TopHeader/>
-      <Navbar/>
       <Hero/>
-      <Footer/>
       </div>
   )
 }

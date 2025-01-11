@@ -1,6 +1,8 @@
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import image from '../images/logo.png.png'
+
 
 const TopHeader = () => {
   return (
@@ -11,10 +13,10 @@ const TopHeader = () => {
   alt='image'/>
 </div>
 <div className='pb-3 -mt-2'><div className='flex justify-end  gap-5 mr-10 -mt-3 font-semibold'>
-  <h2>find a store |</h2>
-  <h2>help |</h2>
-  <h2>join us | </h2>
-  <h2>signin | </h2>
+  <Link href="/products">find a store |</Link>
+  <Link href="/help">help |</Link>
+  <Link href="/joinus">join us | </Link>
+  <Link href="/signin">signin | </Link>
 </div>
 </div>
     </div>

@@ -24,7 +24,7 @@ const Hero = () => {
  <div className='h-full w-full container mx-auto mt-6  '>
 
 <div className='w-full h-58 bg-[#F5F5F5] '>
-<h1 className='text-center font-extrabold'>Hello Nike App</h1>
+<h1 className='text-center font-extrabold pb-4'>Hello Nike App</h1>
 <p className='font-medium text-center'>Download the app to access everything Nike</p>
 </div>
 
@@ -62,19 +62,11 @@ height={500} className='w-[1344] h-[500]'/>
 
 
 <div className='w-full mt-12 flex gap-10'>
-  <div className='w-[1000] h-[1000] '><Image src={image1} alt='image' width={1000} height={1000}/></div>
-  <div className='w-[1000] h-[1000] '><Image src={image2} alt='image' width={1000} height={1000}/></div>
-  <div className='w-[1000] h-[1000] '><Image src={image3} alt='image' width={1000} height={1000}/></div>
-</div>
+  
+<div className='w-100 h-200 flex flex-col '> <Image src={image1} alt='image' width={400} height={400} />  <p className='font-bold'>Nike Air Max Pulse     &#8377; 13 995</p> <p className='text-[#757575]'>Women's Shoes</p>  </div>
+<div className='w-100 h-200 flex flex-col '> <Image src={image2} alt='image' width={400} height={400} />  <p className='font-bold'>Nike Air Max Pulse     &#8377; 13 995.00 </p> <p className='text-[#757575]'>Men's Shoes</p>  </div>
+<div className='w-100 h-200 flex flex-col '> <Image src={image3} alt='image' width={400} height={400} />  <p className='font-bold'>Nike Air Max 97 SE     &#8377; 16 995.00</p> <p className='text-[#757575]'>Men's Shoes</p>  </div>
 
-
-<div className='w-full mt-2 flex  '>
-<div className='w-[1000]  flex gap-40  pl-8 '><h2>Nike Air Max Pulse</h2> <h3 className='flex'><FaIndianRupeeSign />13,995 </h3></div>
-
-
-<div className='w-[1000]  flex gap-40  pl-14 '><h2>Nike Air Max Pulse</h2> <h3 className='flex'><FaIndianRupeeSign />13,995 </h3></div>
-
-<div className='w-[1000]  flex gap-40  pl-24 '><h2>Nike Air Max Pulse</h2> <h3 className='flex'><FaIndianRupeeSign />13,995 </h3></div>
  
 </div>
 
@@ -94,52 +86,39 @@ height={500} className='w-[1344px] h-[500px]' />
 </div>
 
 
+
+
+
+
 <div className='font-semibold m-12'>Gear Up</div>
 
-<div className='flex justify-between  '>
+<div className='flex justify-between '>
 
-<div className='flex '>
-<h3 className='font-semibold ml-20 '>MenShop </h3>
-<div className='w-[30px] h-[30px] rounded-full bg-[#f5f5f58a] flex items-center justify-center' >
-<GrFormPrevious className='size-6' />
-</div>
-<div className='w-[30px] h-[30px] rounded-full bg-[#F5F5F5] flex items-center justify-center' >
-<IoChevronForwardOutline  className='size-6'/>
-</div>
-<div className='flex justify-between mt-12 gap-20'>
-<Image src={image5} alt='image'width={200} height={200} />
-<Image src={image6} alt='image'width={200} height={200} />
-</div>
+<div className='flex justify-end  w-[50%]'>
+<h3 className='font-semibold ml-20 '>MenShop     </h3> <GrFormPrevious className='size-6' /><IoChevronForwardOutline  className='size-6'/>
 </div>
 
-<div className='flex'>
-<h3 className='font-semibold  '>WomenShop</h3>
-<div className='w-[30px] h-[30px] rounded-full bg-[#f5f5f58a] flex items-center justify-center' >
-<GrFormPrevious className='size-6' />
-</div>
-<div className='w-[30px] h-[30px] rounded-full bg-[#F5F5F5] flex items-center justify-center' >
-<IoChevronForwardOutline  className='size-6'/>
-</div >
-<div className='flex justify-between mt-12 gap-20'>
-<Image src={image7} alt='image'width={200} height={200} />
-<Image src={image8} alt='image'width={200} height={200} />
+<div className='flex justify-end w-[50%]'>
+<h3 className='font-semibold ml-20 '>Women's Shop     </h3> <GrFormPrevious className='size-6' /><IoChevronForwardOutline  className='size-6'/>
 </div>
 
 </div>
+
+
+<div className='w-full mt-12 flex gap-10'>
+  
+<div className='w-100 h-200 flex flex-col '> <Image src={image5} alt='image' width={300} height={300} />  <p className='font-bold'>Nike Dry-FIT ADV Techknit &#8377; 3 895</p> <p className='text-[#757575]'>Men's short-sleeve </p> <p className='text-[#757575]'>Running Top </p> </div>
+<div className='w-100 h-200 flex flex-col '> <Image src={image6} alt='image' width={300} height={300} />  <p className='font-bold'>Nike Dry-FIT Chhallenger    &#8377; 2 495 </p> <p className='text-[#757575]'>Men 18 cm(approx)2-</p> <p className='text-[#757575]'>in-1 versatile shorts</p> </div>
+<div className='w-100 h-200 flex flex-col '> <Image src={image7} alt='image' width={300} height={300} />  <p className='font-bold'>Nike Dry-FITADV Run division    &#8377; 5 295</p> <p className='text-[#757575]'>Women's long sleeve</p><p className='text-[#757575]'>Running top </p>  </div>
+<div className='w-100 h-200 flex flex-col '> <Image src={image8} alt='image' width={300} height={300} />  <p className='font-bold'>Nike fast    &#8377; 3 795</p> <p className='text-[#757575]'>Women's mid rise 7/8 running</p> <p className='text-[#757575]'>Legging with pockets </p> </div>
 
  
 </div>
 
 
-<div className=' flex gap-20 ml-48 '>
-<div className= '  flex  '><h2>Nike Air Max Pulse</h2> <h3 className='flex'><FaIndianRupeeSign />13,995 </h3></div>
 
-<div className=' flex '><h2>Nike Air Max Pulse</h2> <h3 className='flex'><FaIndianRupeeSign />13,995 </h3></div>
 
-<div className='  flex gap ml-16 '><h2>Nike Air Max Pulse</h2> <h3 className='flex'><FaIndianRupeeSign />13,995 </h3></div>
- 
-<div className=' flex gap '><h2>Nike Air Max Pulse</h2> <h3 className='flex'><FaIndianRupeeSign />13,995 </h3></div>
-</div>
+
 
 
 <div className='mt-24 ml-12'>  <h1 className='font-semibold '>Don't Miss</h1></div>
